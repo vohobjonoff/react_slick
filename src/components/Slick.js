@@ -76,7 +76,7 @@ class SimpleSlider extends React.Component {
       <Slider {...settings}>
         <div>
         <Wrapper>
-          <h3><img src="../logo.jpg" alt="logo" /><p>Bizn..</p></h3>
+          <h3><img src="../logo.jpg" alt="logo" /><p>Bizn.</p></h3>
           </Wrapper>
         </div>
         <div><Wrapper>
