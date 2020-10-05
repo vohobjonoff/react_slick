@@ -45,6 +45,7 @@ class SimpleSlider extends React.Component {
           breakpoint: 900,
           settings: {
             slidesToShow: 5,
+            arrows: true
           }
         },
         {
@@ -61,9 +62,10 @@ class SimpleSlider extends React.Component {
            
           }
         },{
-          breakpoint: 500,
+          breakpoint: 375,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 4,
+            arrows:true
             
           }
         }

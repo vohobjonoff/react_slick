@@ -20,19 +20,16 @@ margin:auto;
     
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     max-width:550px;
    
 }
 
-@media (max-width: 600px) {
-    max-width:500px;
+@media (max-width: 375px) {
+    max-width:250px;
    
 
-@media (max-width: 500px) {
-  max-width:350px;
-   
-}
+
 
 }
 
@@ -42,15 +39,11 @@ margin:auto;
 export const Wrapper = styled.div`
 width: 20px;
 color: #fff;
-font-size: 8px;
+font-size: 10px;
 border-radius: 50%;
-margin-left: 50px;
+margin-left: 30px;
 text-align:center;
-@media (max-width: 350px) {
-  img{
-    width:20px;
-  }
-} 
+
 
 img {
     border-radius: 50%;
